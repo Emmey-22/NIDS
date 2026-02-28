@@ -1,0 +1,25 @@
+{
+  "model_path": "artifacts_baseline/nids_model.joblib",
+  "data_path": "Bruteforce-Tuesday-no-metadata.parquet",
+  "label_column": "Label",
+  "n_rows": 389714,
+  "accuracy": 0.9998511729114171,
+  "classification_report": "              precision    recall  f1-score   support\n\n      Benign     0.9999    1.0000    0.9999    380564\n FTP-Patator     0.9997    0.9966    0.9981      5931\n SSH-Patator     0.9994    0.9894    0.9944      3219\n\n    accuracy                         0.9999    389714\n   macro avg     0.9996    0.9954    0.9975    389714\nweighted avg     0.9999    0.9999    0.9999    389714\n",
+  "confusion_matrix": [
+    [
+      380560,
+      2,
+      2
+    ],
+    [
+      20,
+      5911,
+      0
+    ],
+    [
+      34,
+      0,
+      3185
+    ]
+  ]
+}

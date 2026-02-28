@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: nids-api
+    env: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: NIDS_MODEL_PATH
+        value: artifacts_baseline/nids_model.joblib

@@ -1,0 +1,4 @@
+,pred_Benign,pred_FTP-Patator,pred_SSH-Patator
+true_Benign,7616,0,0
+true_FTP-Patator,0,128,0
+true_SSH-Patator,1,0,49

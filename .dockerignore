@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+
+Bruteforce-Tuesday-no-metadata.parquet
+Untitled Diagram.drawio.png
+
+artifacts_smoke/
+artifacts_smoke2/
+artifacts_full/
+artifacts_eval_smoke/
+artifacts_tuning_smoke/
+
+artifacts_baseline/predictions.csv
+artifacts_baseline/metrics.json
+artifacts_baseline/full_dataset_eval.json

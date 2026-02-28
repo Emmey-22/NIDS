@@ -1,0 +1,87 @@
+{
+  "selected_model": "hybrid_adaboost_c45",
+  "selected_metrics": {
+    "accuracy": 0.9995724668661822,
+    "f1_macro": 0.9891743883247118,
+    "f1_weighted": 0.9995656179362962,
+    "classification_report": "              precision    recall  f1-score   support\n\n      Benign     0.9996    1.0000    0.9998      2285\n FTP-Patator     1.0000    1.0000    1.0000        38\n SSH-Patator     1.0000    0.9375    0.9677        16\n\n    accuracy                         0.9996      2339\n   macro avg     0.9999    0.9792    0.9892      2339\nweighted avg     0.9996    0.9996    0.9996      2339\n",
+    "confusion_matrix": [
+      [
+        2285,
+        0,
+        0
+      ],
+      [
+        0,
+        38,
+        0
+      ],
+      [
+        1,
+        0,
+        15
+      ]
+    ],
+    "roc_auc_ovr_weighted": 0.9965479499291701
+  },
+  "c45_metrics": {
+    "accuracy": 0.9991449337323642,
+    "f1_macro": 0.9747647069134265,
+    "f1_weighted": 0.999147663135253,
+    "classification_report": "              precision    recall  f1-score   support\n\n      Benign     1.0000    0.9996    0.9998      2285\n FTP-Patator     0.9744    1.0000    0.9870        38\n SSH-Patator     0.9375    0.9375    0.9375        16\n\n    accuracy                         0.9991      2339\n   macro avg     0.9706    0.9790    0.9748      2339\nweighted avg     0.9992    0.9991    0.9991      2339\n",
+    "confusion_matrix": [
+      [
+        2284,
+        0,
+        1
+      ],
+      [
+        0,
+        38,
+        0
+      ],
+      [
+        0,
+        1,
+        15
+      ]
+    ],
+    "roc_auc_ovr_weighted": 0.9995674642573379
+  },
+  "hybrid_metrics": {
+    "accuracy": 0.9995724668661822,
+    "f1_macro": 0.9891743883247118,
+    "f1_weighted": 0.9995656179362962,
+    "classification_report": "              precision    recall  f1-score   support\n\n      Benign     0.9996    1.0000    0.9998      2285\n FTP-Patator     1.0000    1.0000    1.0000        38\n SSH-Patator     1.0000    0.9375    0.9677        16\n\n    accuracy                         0.9996      2339\n   macro avg     0.9999    0.9792    0.9892      2339\nweighted avg     0.9996    0.9996    0.9996      2339\n",
+    "confusion_matrix": [
+      [
+        2285,
+        0,
+        0
+      ],
+      [
+        0,
+        38,
+        0
+      ],
+      [
+        1,
+        0,
+        15
+      ]
+    ],
+    "roc_auc_ovr_weighted": 0.9965479499291701
+  },
+  "config": {
+    "data": "Bruteforce-Tuesday-no-metadata.parquet",
+    "label_col": "Label",
+    "binary": false,
+    "test_size": 0.2,
+    "random_state": 42,
+    "sample_frac": 0.03,
+    "ada_estimators": 20,
+    "ada_learning_rate": 0.5,
+    "tree_max_depth": 8,
+    "ada_tree_depth": 3
+  }
+}

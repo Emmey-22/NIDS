@@ -1,0 +1,4 @@
+class,precision,recall,f1_score,support
+Benign,0.9998687147170802,1.0,0.9999343530493009,7616.0
+FTP-Patator,1.0,1.0,1.0,128.0
+SSH-Patator,1.0,0.98,0.98989898989899,50.0

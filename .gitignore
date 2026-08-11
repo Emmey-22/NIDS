@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+.env
+
+# Local datasets and generated model binaries
+*.parquet
+*.csv
+artifacts_final/*.joblib
+
+# Temporary Microsoft Office files
+~$*.docx
+

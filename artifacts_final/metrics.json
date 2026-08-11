@@ -1,0 +1,82 @@
+{
+  "selected_model": "c45_tree",
+  "selected_metrics": {
+    "accuracy": 0.9997049125643098,
+    "f1_macro": 0.9967694550142409,
+    "f1_weighted": 0.9997043199257024,
+    "classification_report": "              precision    recall  f1-score   support\n\n      Normal     0.9998    0.9999    0.9998     76113\n      Attack     0.9978    0.9896    0.9937      1830\n\n    accuracy                         0.9997     77943\n   macro avg     0.9988    0.9948    0.9968     77943\nweighted avg     0.9997    0.9997    0.9997     77943\n",
+    "confusion_matrix": [
+      [
+        76109,
+        4
+      ],
+      [
+        19,
+        1811
+      ]
+    ],
+    "roc_auc": 0.9988392402466881
+  },
+  "c45_metrics": {
+    "accuracy": 0.9997049125643098,
+    "f1_macro": 0.9967694550142409,
+    "f1_weighted": 0.9997043199257024,
+    "classification_report": "              precision    recall  f1-score   support\n\n      Normal     0.9998    0.9999    0.9998     76113\n      Attack     0.9978    0.9896    0.9937      1830\n\n    accuracy                         0.9997     77943\n   macro avg     0.9988    0.9948    0.9968     77943\nweighted avg     0.9997    0.9997    0.9997     77943\n",
+    "confusion_matrix": [
+      [
+        76109,
+        4
+      ],
+      [
+        19,
+        1811
+      ]
+    ],
+    "roc_auc": 0.9988392402466881
+  },
+  "adaboost_metrics": {
+    "accuracy": 0.9934439269722746,
+    "f1_macro": 0.9197348692949749,
+    "f1_weighted": 0.9930403093881958,
+    "classification_report": "              precision    recall  f1-score   support\n\n      Normal     0.9940    0.9993    0.9967     76113\n      Attack     0.9641    0.7486    0.8428      1830\n\n    accuracy                         0.9934     77943\n   macro avg     0.9790    0.8740    0.9197     77943\nweighted avg     0.9933    0.9934    0.9930     77943\n",
+    "confusion_matrix": [
+      [
+        76062,
+        51
+      ],
+      [
+        460,
+        1370
+      ]
+    ],
+    "roc_auc": 0.998352126572807
+  },
+  "hybrid_metrics": {
+    "accuracy": 0.9997049125643098,
+    "f1_macro": 0.9967694550142409,
+    "f1_weighted": 0.9997043199257024,
+    "classification_report": "              precision    recall  f1-score   support\n\n      Normal     0.9998    0.9999    0.9998     76113\n      Attack     0.9978    0.9896    0.9937      1830\n\n    accuracy                         0.9997     77943\n   macro avg     0.9988    0.9948    0.9968     77943\nweighted avg     0.9997    0.9997    0.9997     77943\n",
+    "confusion_matrix": [
+      [
+        76109,
+        4
+      ],
+      [
+        19,
+        1811
+      ]
+    ],
+    "roc_auc": 0.9981209919476213
+  },
+  "config": {
+    "data": "..\\Bruteforce-Tuesday-no-metadata.parquet",
+    "label_col": "Label",
+    "binary": true,
+    "test_size": 0.2,
+    "random_state": 42,
+    "sample_frac": 1.0,
+    "ada_estimators": 120,
+    "ada_learning_rate": 0.5,
+    "tree_max_depth": 8
+  }
+}

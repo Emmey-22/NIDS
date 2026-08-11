@@ -80,10 +80,7 @@ def parse_args() -> argparse.Namespace:
         "--out-dir",
         type=Path,
         default=Path("artifacts"),
-        help=(
-            "Directory to save model artifacts. "
-            "Use a different path to avoid overwriting artifacts_baseline/."
-        ),
+        help="Directory to save model artifacts.",
     )
     return parser.parse_args()
 

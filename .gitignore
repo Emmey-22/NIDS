@@ -13,3 +13,8 @@ artifacts_final/*.joblib
 # Temporary Microsoft Office files
 ~$*.docx
 
+# Local Codex/document-review instructions
+comments-SKILL.md
+
+# Superseded project documentation
+README_NIDS.md
